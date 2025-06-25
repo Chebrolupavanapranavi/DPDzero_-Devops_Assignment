@@ -1,6 +1,5 @@
 FROM golang:1.20-alpine
 
-# ✅ Add curl to support healthcheck
 RUN apk add --no-cache curl
 
 WORKDIR /app
