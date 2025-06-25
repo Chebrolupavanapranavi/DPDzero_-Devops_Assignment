@@ -1,0 +1,9 @@
+FROM golang:1.20-alpine
+
+# ✅ Add curl to support healthcheck
+RUN apk add --no-cache curl
+
+WORKDIR /app
+COPY . .
+RUN go build -o app
+CMD ["./app"]
