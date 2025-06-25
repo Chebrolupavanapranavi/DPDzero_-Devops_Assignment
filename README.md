@@ -33,8 +33,8 @@ This project sets up two backend services — a Go service and a Python Flask se
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/your-username/devops-assignment.git
-   cd devops-assignment
+   git clone https://github.com/Chebrolupavanapranavi/DPDzero_-Devops_Assignment.git
+   cd DPDzero_-Devops_Assignment
    ```
 
 2. **Run the system with one command**:
